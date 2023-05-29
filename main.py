@@ -53,7 +53,7 @@ fullname_button.pack(pady=10)
 email_button = tk.Button(window, text="E-Posta Adresi Oluştur", command=create_email,bg=button_colors[1],fg="white",font=("Arial",12))
 email_button.pack(pady=10)
 
-username_button = tk.Button(window, text="Kullanıcı Adı Olutur", command=create_username,bg=button_colors[2],fg="white",font=("Arial",12))
+username_button = tk.Button(window, text="Kullanıcı Adı Oluştur", command=create_username,bg=button_colors[2],fg="white",font=("Arial",12))
 username_button.pack(pady=10)
 
 password_button = tk.Button(window, text="Şifre Oluştur", command=create_password,bg=button_colors[3],fg="white",font=("Arial",12))
